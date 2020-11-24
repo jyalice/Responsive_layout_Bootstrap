@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <mete name="viewport" content="width = device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- jQuery & JavaScript -->
+    <script
+     src="https://code.jquery.com/jquery-3.3.1.js"
+     integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+     crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <title>Bootstrap</title>
+</head>
+<body>
+  <!-- navbar-inverse: set the color of nav -->
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">S & L</a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Book <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Volume 1—Hello, world!</a></li>
+              <li><a href="#">Volume 2—Superhero?</a></li>
+              <li><a href="#">Volume 3—Ice cream</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Video</a></li>
+          <li><a href="#">Download</a></li>
+        </ul>
+        <form class="navbar-form navbar-left">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-9">
+        <div class="jumbotron">
+          <h1>Sunshine and Lightning</h1>
+          <p>In Alice’s room, Sunshine lives together with her elder sister Lightning. As an ordinary mouse, she has many troubles—Why multiplication tables are so difficult to recite? It’s not her but Green Grass who turns into a princess. Grandma mistakes her as the 27th granddaughter. The horror story scares her to death; even more scary is a cat named May!</p>
+          <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+        </div>
+        <!-- detailed content starts -->
+        <div class="row">
+          <div class="col-xs-6 col-lg-4">
+            <h2>Vol 1—Hello, world!</h2>
+            <p>Although with troubles, Sunshine still enjoys her life—It’s convenient to travel by brontosaurus. It’s interesting to watch the sunrise at the top of the mountain. Grandma cooks the best apples pies in the world!</p>
+            <!-- set the btn class for the hyperlink -->
+            <p><a class="btn btn-default" href="#">Read now</a></p>            
+          </div>
+          <div class="col-xs-6 col-lg-4">
+            <h2>Vol 2—Superhero?</h2>
+            <p>Smart as they are, they feel puzzled when meeting a superhero. Why does he look different from the superheroes in movies? What special characteristics does this superhero have? What did he do as a superhero?</p>
+            <p><a class="btn btn-default" href="#">Read now</a></p>            
+          </div>
+          <div class="col-xs-6 col-lg-4">
+            <h2>Vol 3—Ice cream</h2>
+            <p>This book tells the story of two little mice named Lightning and Sunshine. Although these two sisters are respective souls with different appearances and characters, they live together happily and keep each other a good company.</p>
+            <p><a class="btn btn-default" href="#">Read now</a></p>            
+          </div>
+          <div class="col-xs-6 col-lg-4">
+            <h2>Vol 4—Party</h2>
+            <p>How does May imagine growing into an elderly superhero? Why is this superhero as quiet as a mouse? Is he shy of a stranger? What makes him hesitate before going to the party? This book is interesting for both children and adults.</p>
+            <p><a class="btn btn-default" href="#">Read now</a></p>            
+          </div>
+          <div class="col-xs-6 col-lg-4">
+            <h2>Vol 5—Bubbles</h2>
+            <p>Lightning enjoys blowing bubbles. Sunshine enjoys planting mysterious seeds. May enjoys peeing on Alice’s weekly reports. Alice enjoys drawing Lightning and Sunshine. Hope you enjoy reading this book!</p>
+            <p><a class="btn btn-default" href="#">Read now</a></p>            
+          </div>
+          <div class="col-xs-6 col-lg-4">
+            <h2>Vol 6—Trees</h2>
+            <p>Lightning enjoys ancient wisdom. Sunshine enjoys beautiful trees. May enjoys a nap after lunch. Alice enjoys shopping in a supermarket. Dear readers, hope you enjoy this brand-new story!</p>
+            <p><a class="btn btn-default" href="#">Read now</a></p>            
+          </div>          
+        </div> <!-- detailed content ends -->       
+      </div>
+      <div class="col-sm-3">
+        <ul class="list-group">
+          <li class="list-group-item">News</li>
+          <li class="list-group-item">Discussion</li>
+          <li class="list-group-item">Feedback</li>
+          <li class="list-group-item">Contact</li>
+        </ul>
+      </div>
+    </div>
+  </div>  
+</body>
+</html>
